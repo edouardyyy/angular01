@@ -9,5 +9,14 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Angular Appli 01';
+  appli={
+    title:"SMILE",
+    subtitle:"Stratégie de Mobilisation pour les Inscriptions sur les Listes Électorales"
+  }
+  
+  develop={
+    nom:"Yianyinyi",
+    pnom:"Edouard",
+    metier:"Développeur web"
+  }
 }
